@@ -34,3 +34,12 @@ Homelab Linux server and learning environment.
 - SSH authentication
 - System administration
 - Hardware inventory
+
+## Network Configuration
+
+- Interface: wlp2s0 (Wi-Fi)
+- IPv4 Address: 10.0.0.116/24
+- Default Gateway: 10.0.0.1
+- Address Assignment: DHCP
+- Gateway connectivity: Verified with ping
+- Packet loss during test: 0%

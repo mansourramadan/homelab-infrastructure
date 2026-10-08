@@ -43,3 +43,15 @@ Homelab Linux server and learning environment.
 - Address Assignment: DHCP
 - Gateway connectivity: Verified with ping
 - Packet loss during test: 0%
+
+## SSH Remote Access
+
+- OpenSSH Server installed
+- SSH port: 22
+- SSH socket: Active and listening
+- UFW firewall: Enabled
+- OpenSSH allowed through UFW
+- SSH host fingerprint verified before first connection
+- Remote client: iPad using Termius
+- Remote login: Successfully tested
+- Purpose: Secure remote administration of the iMac homelab node

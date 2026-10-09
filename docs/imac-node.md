@@ -55,3 +55,22 @@ Homelab Linux server and learning environment.
 - Remote client: iPad using Termius
 - Remote login: Successfully tested
 - Purpose: Secure remote administration of the iMac homelab node
+
+### SSH Hardening
+
+- Configured ED25519 public-key authentication
+- Added iPad-Homelab client key to authorized_keys
+- Verified successful public-key authentication from iPad
+- Disabled SSH password authentication
+- Disabled keyboard-interactive authentication
+- Disabled direct root SSH login
+- Validated SSH configuration before reload
+- Reloaded OpenSSH without interrupting existing sessions
+- Successfully established a new key-only SSH session
+
+Effective authentication settings:
+
+- PubkeyAuthentication: yes
+- PasswordAuthentication: no
+- KbdInteractiveAuthentication: no
+- PermitRootLogin: no

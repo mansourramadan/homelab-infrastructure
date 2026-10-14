@@ -19,8 +19,8 @@ Tailscale allows these connections to work securely when I am away from my home 
 - OS: Ubuntu 24.04 LTS
 - Remote desktop: GNOME Remote Desktop
 - RDP port: TCP 3389
-- LAN IP: 10.0.0.x
-- Tailscale IP: 100.x.x.x
+- LAN IP: 10.0.0.x (redacted)
+- Tailscale IP: 100.x.x.x (redacted)
 
 ### iPad
 - RDP client: Microsoft Windows App
@@ -38,7 +38,7 @@ iPad
   | Home Wi-Fi
   |
   v
-10.0.0.x
+10.0.0.x (redacted)
   |
   | TCP 3389
   |
@@ -58,7 +58,7 @@ Tailscale
   | Encrypted Tailscale network
   |
   v
-100.x.x.x
+100.x.x.x (redacted)
   |
   | TCP 3389
   |
@@ -128,13 +128,13 @@ One major lesson from this lab was understanding the difference between a LAN IP
 
 My iMac LAN address is:
 
-    10.0.0.x
+    10.0.0.x (redacted)
 
 This address is useful while connected to my home network.
 
 My iMac Tailscale address is:
 
-    100.x.x.x
+    100.x.x.x (redacted)
 
 This address allows my other Tailscale devices to reach the iMac through the Tailscale network.
 
@@ -209,7 +209,7 @@ These logs showed that some failures occurred after the network connection had a
 
 Once I was physically home, I connected Windows App directly to:
 
-    10.0.0.x
+    10.0.0.x (redacted)
 
 The RDP session worked.
 
@@ -225,7 +225,7 @@ This was an important troubleshooting step because it proved that:
 
 I then connected Windows App to:
 
-    100.x.x.x
+    100.x.x.x (redacted)
 
 The connection succeeded.
 
